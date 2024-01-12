@@ -1,0 +1,43 @@
+/* OrderCreate.css */
+.order-create-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.error-message {
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.confirm-order-button,
+.go-back-button,
+.go-home-button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #2980b9;
+    }
+}
+
+.order-confirmation-message {
+    color: #27ae60;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.order-info {
+    color: #555;
+}
